@@ -1,0 +1,6 @@
+flask
+flask-pymongo
+redis
+sse
+flask-sse
+pygal

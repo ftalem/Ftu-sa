@@ -1,0 +1,14 @@
+web:
+  build: .
+  command: python -u mongo_connect.py
+  ports:
+    - "5000:5000"
+  #volumes:
+   # - .:/fatt
+  links:
+    - db
+    - redis
+redis:
+  image: redis
+db:
+  image: mongo:3.0.2
