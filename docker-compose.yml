@@ -1,4 +1,4 @@
-web:
+wnc:
   build: .
   command: python -u mongo_connect.py
   ports:
